@@ -1,6 +1,7 @@
 package com.springframework.restapi.onlineshoppingrestapi.api.v1.model;
 
 import com.springframework.restapi.onlineshoppingrestapi.domain.Product;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +16,8 @@ import java.util.List;
 @AllArgsConstructor
 public class CategoryDTO {
 
-
+    @Schema(required = true)
     private String description;
+
     private List<ProductDTO> products = new ArrayList<>();
 }
