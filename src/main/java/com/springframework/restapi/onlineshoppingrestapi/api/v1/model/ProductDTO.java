@@ -19,5 +19,5 @@ public class ProductDTO {
     private float price;
     private int inStock;
     private Byte[] image;
-    private Category category;
+    private CategoryDTO category;
 }

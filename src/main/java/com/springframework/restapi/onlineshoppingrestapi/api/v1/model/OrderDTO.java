@@ -21,7 +21,7 @@ public class OrderDTO {
     private LocalDate dateOrdered;
     private int productQuantity;
     private float totalPrice;
-    private List<Product> products = new ArrayList<>();
+    private List<ProductDTO> products = new ArrayList<>();
     private OrderStatus status;
-    private Customer customer;
+    private CustomerDTO customer;
 }

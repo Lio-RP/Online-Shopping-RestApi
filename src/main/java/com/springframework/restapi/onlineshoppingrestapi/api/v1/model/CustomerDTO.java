@@ -23,5 +23,5 @@ public class CustomerDTO {
     private String city;
     private String country;
     private String zipcode;
-    private List<Order> orders = new ArrayList<>();
+    private List<OrderDTO> orders = new ArrayList<>();
 }

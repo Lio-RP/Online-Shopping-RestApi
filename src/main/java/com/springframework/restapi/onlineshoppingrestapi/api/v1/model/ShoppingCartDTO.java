@@ -14,5 +14,5 @@ public class ShoppingCartDTO {
 
     private int quantity;
     private float subtotalPrice;
-    private Product product;
+    private ProductDTO product;
 }
